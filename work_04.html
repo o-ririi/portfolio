@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $(".slider").bxSlider(
+        {
+        aut:true,
+        controls:false,
+        pager:false    
+        }
+        );
+      });
+    </script>
+    <style>
+     .bx-wrapper{
+        background-color: transparent;
+        margin: 0px auto;
+        border: none;
+        box-shadow: none;
+        width: 100%;
+         }
+         .bx-wrapper img{
+            display: block;
+            margin: 0px auto;
+            width: 100%;
+         }   
+    </style>
+</head>
+<body>
+    <header class="global-header">
+        <div class="global-header__inner">
+<div class="global-header-title-wrap">
+        <h1 class="global-header__title"><a href="index.html"  class="gnav-link">portfolio</a></h1>
+            <p class="header__subtitle">VD2A 08 Ozawa Ririka</p>
+</div>
+
+            <nav class="gnav">
+                <ul class="gnav__menu">
+                    <li class="gnav__list">
+                        <a href="works.html">
+                            <img src="images/nav-works.png" alt="" 
+                            class="gnav-img">
+                         </a>
+                          </a>
+                         </li>
+                    <li class="gnav__list">
+                        <a href="profile.html">
+                            <img src="images/nav-profile.png" alt="" 
+                            class="gnav-img">
+                        </a>
+                        </a>
+                       </li>
+                    <li class="gnav__list">
+                        <a href="contact.html">
+                            <img src="images/nav-contact.png" alt="" 
+                            class="gnav-img">
+                            </a>
+                            </a>
+                            </li>
+                   
+
+                    </ul>
+
+                   </nav>
+
+                   </div>
+
+    </header>
+    <main class="main-home">
+    <div class="home-img-wrap">
+        <img src="images/perfume_copy.png" alt="" class="home-main-img">
+        <img src="images/perfume_copy2.png" alt="" class="home-main-img">
+    </div> 
+    <div>写真   模写制作    「VASILISA」の香水広告の模写を制作しました。本物と同じにするために、
+        モデルさんの表情、髪の位置、色合いや大きさなど細かいところを丁寧に作業しました。
+    </div>
+
+       
+    </main>
+
+</body>
+</html>
